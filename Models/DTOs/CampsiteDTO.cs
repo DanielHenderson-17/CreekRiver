@@ -4,5 +4,5 @@ public class CampsiteDTO
     public string Nickname { get; set; }
     public string ImageUrl { get; set; }
     public int CampsiteTypeId { get; set; }
-    public CampsiteTypeDTO? CampsiteType { get; set; }
+    public CampsiteTypeDTO CampsiteType { get; set; }
 }
